@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/974c2a4973.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Personal Portfolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer </p>
+                <h1>Hi, I'm <span>Bollavarapu Sucharitha</span><br>from Nandyal, India.</h1>
+            </div>
+        </div>
+    </div>
+<!--------------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="p1.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <p class="para-design"> &nbsp;&nbsp;&nbsp;&nbsp; Currently, I am in the final year of my Bachelor Of Technology program in Computer Science And Engineering & Business Systems at Rajeev Gandhi Memorial College Of Engineering And Technology, where I have secured 8.5 CGPA <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Coming to my accomplishment, Throughout my academic journey, I have consistently achieved top-tier grades, showcasing my commitment to excellence and a strong work ethic. In terms of Reliable Team Contributor, I'm a reliable team player in group projects, known for consistency, meeting deadlines, and delivering quality work, contributing to project success.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am an ambitious and independent young man within my family, constantly contemplating my career path and seeking ways to improve both my personal and professional life. I dedicate my time to upskilling in various tech skills and engage in regular practice to enhance my professional profile. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span></li>
+                            <li><span>C</span></li>
+                            <li><span>Basic Java</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>HTML, CSS and JavaScript</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>Python</span><br></li>
+                            <li><span>HTML and CSS</span><br></li>
+                            <li><span>SQL</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> Rajeev Gandhi Memorial College Of Engineering And Technology </span> <br> Bachelor Of Technology <br> Computer Science And Engineering & Business Systems <br> CGPA - 8.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020-2024</li>
+                            <li><span> Rao's Junior College </span><br>Intermediate <br>CGPA - 8.7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018-2020</li>
+                            <li><span> Sri Chaitanya E.M School - Nandyal </span><br>State Board, Student <br> CGPA - 10.0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------services---------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I am femiliar with HTML, CSS, JavaScript and I create websites   
+                        like E-commerce etc.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>I am femiliar with python and I will Solve Basic problems
+                         with good and meaningful logic.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-----------------------------projects------------------ -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Web Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://cms-assets.tenderhut.com/c02eb654-f40a-0080-b307-f20cbceaba2e/assets/f43c89ba-db0b-4d07-86b2-099e42249953/amazon-multi-category-e-commerce-example.PNG?w=1898&h=964&auto=format&q=70&fit=crop">
+                    <div class="layer">
+                        <h3>E-Commerce website</h3>
+                        <p>The website helps you to buy and sell yoour goods and services online.
+                            Visit the website for your online shopping experience.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="p4.jpg">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>A personal portfolio showcases skills, projects, and experience. 
+                            Include an introduction, resume, project details, and contact information for impact.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://media.gqmagazine.fr/photos/61eac6dd8946915d355948bc/16:9/w_2560%2Cc_limit/Netflix-Abonnes.jpg">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>A replicated streaming platform offering diverse content, original 
+                            productions, and subscription-based access to movies and shows.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="bn.jpg">
+                    <div class="layer">
+                        <h3>Button Maker</h3>
+                        <p>Custom button maker allows users to adjust color, width, and 
+                            padding, clicking to dynamically change preferences.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------------contact------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sucharithachinni2468@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+916304779018</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Sucharitha2468"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/bollavarapusucharitha/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name required">
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!------------for certification------------>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
